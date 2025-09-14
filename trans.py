@@ -10,7 +10,7 @@ app = Flask(__name__)
 class TransEngine:
     def translate(self, src_text):
         trans_obj = client.chat.completions.create(
-            model = "gpt-4o-mini",
+            model = "gpt-4.1-mini",
             messages = [{"role" : "user", "content" : TRANSLATION_PROMPT + src_text}]
         )
         return trans_obj.choices[0].message.content
