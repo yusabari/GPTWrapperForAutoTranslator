@@ -3,7 +3,6 @@ ChatGPT 번역을 웹 API 형태로 쓰기 위해 만들어진 Python 스크립�
 
 [AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator)등의 사용자 정의 Endpoint 지정 가능한 번역 플러그인에 사용할 용도로 만들어졌습니다.
 # 필수 환경
-* 이지트랜스 (최소 한번 실행 필수)
 * Python
 * Flask
 
